@@ -1,0 +1,26 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "description": "A project management application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "API",
+    "creation"
+  ],
+  "author": "Ayaan Murshed Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11"
+  }
+}
