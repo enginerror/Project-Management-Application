@@ -1,6 +1,7 @@
 import express from "express";
 // import cors
 import cors from "cors";
+import cookieParser from "cookie-parser"
 
 const app = express();
 
@@ -17,6 +18,7 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 
 // static assets
 app.use(express.static("public"));
+app.use(cookieParser())
 
 // # configurations of cors -
 // CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
